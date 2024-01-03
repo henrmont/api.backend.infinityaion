@@ -17,7 +17,7 @@ class NotificationSeeder extends Seeder
             $notification = Notification::create([
                 'user_id'   => 1,
                 'title'     => fake()->name(),
-                'content'   => fake()->paragraph(),
+                'content'   => 'Apenas uma notificação qualquer',
                 'created_at'=> now(),
                 'updated_at'=> now()
             ]);
